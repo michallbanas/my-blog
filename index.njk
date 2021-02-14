@@ -1,0 +1,15 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Domov
+  order: 1
+---
+
+{% set maxPosts = collections.posts.length | min(3) %}
+<h1>Posledné Články</h1>
+
+{% set postslist = collections.posts | head(-3) %} 
+{% set postslistCounter = collections.posts | length %} 
+{% include "postslist.njk" %}
+
+<p>Viac článkov si môžete prečítať v <a href="{{ '/posts/' | url }}">archíve</a>.</p>
