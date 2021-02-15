@@ -8,6 +8,7 @@
   --blue: #082840;
   --white: #fff;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -23,7 +24,10 @@ body {
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   color: var(--darkgray);
   background-color: var(--white);
+  min-height: 100vh;
+  overflow: auto;
 }
+
 h1 {
   text-align: center;
 }
@@ -202,7 +206,7 @@ pre {
   font-size: 0.625em; /* 10px /16 */
   padding: 2px 4px;
   margin-left: 0.8em; /* 8px /10 */
-  background-color: var(--red);
+  background-color: var(--darkgray);
   color: var(--white);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
@@ -247,5 +251,34 @@ a[href].direct-link:focus:visited,
   }
   br {
     display: inline;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--darkgray);
+    color: var(--lightgray);
+  }
+
+  header {
+    border-bottom: 1px dashed var(--navy);
+  }
+  a[href] {
+    color: var(--lightgray);
+  }
+  a[href]:visited {
+    color: var(--lightgray);
+  }
+  .post-tag {
+    background-color: var(--navy);
+  }
+  .postlist-date,
+  .postlist-item:before {
+    color: var(--lightgray);
+  }
+
+  hr {
+    border-style: hidden;
+    border-color: var(--darkgray);
   }
 }
