@@ -1,9 +1,9 @@
 {
   "title": "Michal Banaš",
   "url": "https://michalbanas.site/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "Blog Michala Banaša, front-end juniora, ux/ui dizajnéra a fotografa.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Blog Michala Banaša, front-end juniora, ux/ui dizajnéra a fotografa.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://michalbanas.site/"
