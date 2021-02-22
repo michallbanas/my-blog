@@ -247,7 +247,7 @@ a[href].direct-link:focus:visited,
   p,
   .tmpl-post li,
   img {
-    max-width: 55vh;
+    max-width: 42vh;
   }
   br {
     display: inline;
