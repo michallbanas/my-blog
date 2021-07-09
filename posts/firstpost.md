@@ -7,9 +7,6 @@ tags:
 layout: layouts/post.njk
 ---
 
-Ako to celé začalo
-
-
 Ak by som mal začať úplne od začiatku, tak sa preniesť v čase do svojich 13 rokov, kedy som dostal na Vianoce svoj prvý počítač. Dodnes si pamätám, ako som vyskočil na otca, hoci mi ho vlastne kúpili starí rodičia. 
 
 Zo začiatku som bol hlavne herný maniak, ale hry ma časom omrzeli. Vtedy ešte nebolo samozrejmosťou, že každá domácnosť mala internet a tak som sa začal z nudy hrabať v nastaveniach, skúmať, čo sa nachádza v priečinkoch a neraz sa mi stalo, že som si tým pokazil piatkový večer. Nezačal som sa učiť programovať, ale bol som blázon do skúšaní nových verzií Windowsu. 
