@@ -1,6 +1,6 @@
 ---
 title: Responzívny navigation bar
-description: This is a post on My Blog about leveraging agile frameworks.
+description: Ako vytvoriť responzívnu navigáciu pomocou flexboxu
 date: 2021-02-18
 tags:
   - flexbox
